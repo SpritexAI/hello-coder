@@ -1,0 +1,37 @@
+{
+  "name": "hello-coder",
+  "version": "1.0.0",
+  "description": "Skills for AI coding agents to behave like senior developers",
+  "author": "SpritEX AI <hello@spritexai.pro.bd>",
+  "license": "MIT",
+  "homepage": "https://github.com/SpritexAI/hello-coder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpritexAI/hello-coder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SpritexAI/hello-coder/issues"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "skill",
+    "claude",
+    "claude-code",
+    "codex",
+    "gemini",
+    "cursor",
+    "windsurf",
+    "cline",
+    "prompt-engineering",
+    "llm",
+    "developer-tools",
+    "coding-agent"
+  ],
+  "scripts": {
+    "install-skills": "bash install.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
