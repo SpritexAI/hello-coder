@@ -72,6 +72,8 @@ Hello Coder fixes all of that. One setup. Every agent. Every project.
 
 ## Install
 
+### Step 1 — Install Hello Coder
+
 One command. Finds every agent on your machine. Installs for each automatically.
 
 ```bash
@@ -84,22 +86,46 @@ irm https://raw.githubusercontent.com/SpritexAI/hello-coder/main/install.ps1 | i
 
 ~30 seconds. Detects Claude Code, Cursor, Windsurf, Gemini CLI, Codex, and Cline automatically.
 
-**Manual install — no script**
+---
 
-If you prefer to install manually, clone the repo and tell your agent at the start of your session:
+### Step 2 — Add to Your Project
+
+Clone Hello Coder into the root of your project:
 
 ```bash
+cd your-project
 git clone https://github.com/SpritexAI/hello-coder.git
 ```
 
-Then say to your agent:
+Then create an `AGENTS.md` file in your project root with this content:
+
 ```
 Read and apply hello-coder/profiles/fullstack.md before starting any task.
 ```
 
-**Single skill only**
+For frontend projects use `frontend.md`, for backend use `backend.md`.
 
-Just copy any `.md` file from `skills/` into your project and tell your agent to read it. No setup needed.
+This file tells your agent to automatically load Hello Coder every time it opens your project. No need to say anything manually.
+
+---
+
+### Step 3 — Start Working
+
+Open your project in your agent and start giving tasks normally. Hello Coder is now active.
+
+Your agent will automatically:
+- Ask full questions before starting any feature
+- Present a plan and wait for your approval
+- Follow professional UI standards
+- Debug systematically
+- Self-review all code before presenting
+- Run real tests and show real results
+
+---
+
+### Manual — No Script
+
+If you prefer not to use the installer, just copy any `.md` file from `skills/` directly into your project and tell your agent to read it. No setup needed.
 
 ---
 
